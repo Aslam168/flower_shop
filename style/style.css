@@ -3,3 +3,64 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
 }
+
+/* default CSS styles */
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.primary-btn{
+    border: none;
+    background: #e55473;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.primary-text{
+    font-size: 14px;
+    opacity: 0.5;
+}
+
+
+/* banner related styles */
+
+header{
+    background-color: #fceef1;
+}
+
+section.banner {
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    gap: 80px;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-content h1 {
+    font-size: 61px;
+    opacity: 0.8;
+}
+
+.banner-content p {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-top: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+.banner-img img {
+    width: 100%;
+    vertical-align: middle;
+}
