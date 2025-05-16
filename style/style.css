@@ -215,3 +215,43 @@ section.instagram p {
 .instagram-item img {
     width: 100%;
 }
+
+
+/* subscribe related styles */
+
+.subscribe{
+    background-image: url('../assets/Rectangle\ 9.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.subscribe-content h1 {
+    font-size: 30px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.subscribe-content p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscribe-content {
+    width: 60%;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.subscribe-content input {
+    width: 50%;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    padding: 15px 20px;
+}
